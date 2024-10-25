@@ -5,6 +5,11 @@
 body {
   background-color: rgb(32, 32, 32);
   color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
 * {
