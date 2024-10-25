@@ -21,6 +21,7 @@ function EncryptPage() {
 
   return (
     <div className="container">
+      <div className="card">
       <h1>Criptografar Mensagem</h1>
       <textarea
         placeholder="Digite a mensagem"
@@ -28,7 +29,7 @@ function EncryptPage() {
         onChange={(e) => setData(e.target.value)}
       ></textarea>
       <button onClick={encryptData}>Criptografar</button>
-
+      </div>
       {encryptedData && (
         <div className="message">
           <h3>Mensagem Criptografada:</h3>
