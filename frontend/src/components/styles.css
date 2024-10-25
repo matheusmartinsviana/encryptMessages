@@ -1,0 +1,44 @@
+.dropdown-container {
+  margin-top: 20px;
+  max-width: 500px;
+}
+
+.dropdown-button {
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  position: relative;
+}
+
+.dropdown-button.open svg {
+  transform: rotate(180deg); /* Rotaciona a seta para cima */
+}
+
+.dropdown-button:hover {
+  background-color: transparent;
+}
+
+.dropdown-content {
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #2c2c2c;
+  color: #e0e0e0;
+  font-size: 15px;
+  line-height: 1.6;
+  border: 1px solid #3e3e3e;
+  transition: max-height 0.3s ease, opacity 0.3s ease;
+  overflow: hidden;
+  max-height: 0;
+  opacity: 0;
+}
+
+.dropdown-container .open {
+  max-height: 500px;
+  opacity: 1;
+}

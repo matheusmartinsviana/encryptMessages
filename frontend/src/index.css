@@ -1,0 +1,12 @@
+.message {
+  max-width: 500px;
+}
+
+body {
+  background-color: rgb(32, 32, 32);
+  color: white;
+}
+
+* {
+  font-family: "Poppins", sans-serif;
+}
