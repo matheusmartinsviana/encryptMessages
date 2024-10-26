@@ -92,7 +92,7 @@ npm start
 O servidor estará rodando em http://localhost:8000.
 
 ## Dependências
-express
-crypto (módulo nativo do Node.js)
-cors
-body-parser
+- express
+- crypto (módulo nativo do Node.js)
+- cors
+- body-parser
