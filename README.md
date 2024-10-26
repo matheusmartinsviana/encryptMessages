@@ -1,14 +1,14 @@
 # Projeto de Criptografia RSA com Node.js
 Este projeto demonstra o uso de criptografia assimétrica RSA para criptografar e descriptografar dados utilizando Node.js. A aplicação inclui um servidor Express que gera um par de chaves pública e privada e expõe rotas para criptografar e descriptografar dados.
 
-# Tecnologias Utilizadas
+# 🛠️ Tecnologias Utilizadas
 Node.js: Plataforma JavaScript para execução do código no lado do servidor. <br>
 Express: Framework para construção de APIs web. <br>
 crypto: Módulo nativo do Node.js utilizado para operações criptográficas. <br>
 cors: Middleware para permitir solicitações de diferentes origens. <br>
 body-parser: Middleware para análise de corpos de requisições JSON. <br>
 
-# Sobre a Criptografia
+# 🔐 Sobre a Criptografia
 Este projeto utiliza RSA (Rivest–Shamir–Adleman), um algoritmo de criptografia assimétrica. A criptografia assimétrica usa um par de chaves: <br> 
 
 - Chave Pública: Usada para criptografar dados. Pode ser distribuída publicamente. <br>
@@ -25,6 +25,8 @@ MIIBCgKCAQEA...
 -----END RSA PUBLIC KEY-----
 Rotas da API
 ```
+
+## 🌐 Rotas da API
 
 1. Obter a Chave Pública
 GET /publicKey <br>
@@ -71,7 +73,7 @@ Resposta Exemplo:
 }
 ```
 
-## Como Executar o Projeto
+## 🚀 Como Executar o Projeto
 Clone o repositório:
 
 ```bash
@@ -91,7 +93,7 @@ npm start
 ```
 O servidor estará rodando em http://localhost:8000.
 
-## Dependências
+## 📦 Dependências
 - express
 - crypto (módulo nativo do Node.js)
 - cors
